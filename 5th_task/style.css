@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column {
+    background-color: #f0f8ff;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.right-column {
+    background-color: #fff0f5;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.left-column h2,
+.right-column h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.left-column p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.right-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
